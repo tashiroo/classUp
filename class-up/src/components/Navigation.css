@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+}
+
+li {
+  list-style:none;
+
+}
+
+.box {
+  margin-left: 10px;
+  background-color: olivedrab;
+  color: lavender;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow:0 5px  rgb(71, 71, 1);
+  user-select: none;
+}
+
+.box:hover {
+  background-color: olive;
+  color: white;
+}
+
